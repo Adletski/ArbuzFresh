@@ -9,21 +9,68 @@
 /* Begin PBXBuildFile section */
 		608E0D672A18AD31009D3375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D662A18AD31009D3375 /* AppDelegate.swift */; };
 		608E0D692A18AD31009D3375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D682A18AD31009D3375 /* SceneDelegate.swift */; };
-		608E0D6B2A18AD31009D3375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D6A2A18AD31009D3375 /* ViewController.swift */; };
-		608E0D6E2A18AD31009D3375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608E0D6C2A18AD31009D3375 /* Main.storyboard */; };
+		608E0D6B2A18AD31009D3375 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D6A2A18AD31009D3375 /* LoginViewController.swift */; };
 		608E0D702A18AD34009D3375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608E0D6F2A18AD34009D3375 /* Assets.xcassets */; };
 		608E0D732A18AD34009D3375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608E0D712A18AD34009D3375 /* LaunchScreen.storyboard */; };
+		608E0D7B2A18BEF1009D3375 /* Ext+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D7A2A18BEF1009D3375 /* Ext+ViewController.swift */; };
+		608E0D7E2A18BF21009D3375 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 608E0D7D2A18BF21009D3375 /* SnapKit */; };
+		608E0D802A18BFC4009D3375 /* Ext+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D7F2A18BFC4009D3375 /* Ext+UITextField.swift */; };
+		608E0D822A18C5A0009D3375 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D812A18C5A0009D3375 /* LoginView.swift */; };
+		608E0D882A194260009D3375 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D872A194260009D3375 /* SignUpViewController.swift */; };
+		608E0D8A2A1945F8009D3375 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D892A1945F8009D3375 /* SignUpView.swift */; };
+		608E0D8C2A195856009D3375 /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D8B2A195856009D3375 /* Ext+String.swift */; };
+		608E0D8F2A1A38E8009D3375 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D8E2A1A38E8009D3375 /* MainViewController.swift */; };
+		608E0D912A1A43F2009D3375 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D902A1A43F2009D3375 /* MainViewModel.swift */; };
+		608E0D932A1A4526009D3375 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 608E0D922A1A4526009D3375 /* data.json */; };
+		608E0D982A1A5D1C009D3375 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D972A1A5D1C009D3375 /* OnboardingViewController.swift */; };
+		608E0D9A2A1A648A009D3375 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D992A1A648A009D3375 /* OnboardingCollectionViewCell.swift */; };
+		608E0D9C2A1A686A009D3375 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D9B2A1A686A009D3375 /* OnboardingModel.swift */; };
+		608E0D9E2A1A9EA5009D3375 /* Ext+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D9D2A1A9EA5009D3375 /* Ext+Decodable.swift */; };
+		608E0DA02A1AA4FE009D3375 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0D9F2A1AA4FE009D3375 /* ResponseModel.swift */; };
+		608E0DA22A1AA88E009D3375 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0DA12A1AA88E009D3375 /* MainTableViewCell.swift */; };
+		608E0DA42A1B3E8D009D3375 /* GroceryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0DA32A1B3E8D009D3375 /* GroceryModel.swift */; };
+		608E0DA72A1BC260009D3375 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0DA62A1BC260009D3375 /* CartViewController.swift */; };
+		608E0DA92A1BF91F009D3375 /* Ext+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0DA82A1BF91F009D3375 /* Ext+Double.swift */; };
+		608E0DAB2A1CAADE009D3375 /* CartOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0DAA2A1CAADE009D3375 /* CartOrderTableViewCell.swift */; };
+		608E0DAD2A1CAFA4009D3375 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0DAC2A1CAFA4009D3375 /* CartViewModel.swift */; };
+		608E0DB02A1CD66B009D3375 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0DAF2A1CD66B009D3375 /* FinishViewController.swift */; };
+		608E0DB32A1CFD02009D3375 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E0DB22A1CFD02009D3375 /* OnboardingViewModel.swift */; };
+		60967E442A1D063900938863 /* FinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60967E432A1D063900938863 /* FinishView.swift */; };
+		60967E472A1D0DD700938863 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60967E462A1D0DD700938863 /* ReceiptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		608E0D632A18AD31009D3375 /* Arbuz Fresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arbuz Fresh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		608E0D662A18AD31009D3375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		608E0D682A18AD31009D3375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		608E0D6A2A18AD31009D3375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		608E0D6D2A18AD31009D3375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		608E0D6A2A18AD31009D3375 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		608E0D6F2A18AD34009D3375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		608E0D722A18AD34009D3375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		608E0D742A18AD34009D3375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608E0D7A2A18BEF1009D3375 /* Ext+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+ViewController.swift"; sourceTree = "<group>"; };
+		608E0D7F2A18BFC4009D3375 /* Ext+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UITextField.swift"; sourceTree = "<group>"; };
+		608E0D812A18C5A0009D3375 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		608E0D872A194260009D3375 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		608E0D892A1945F8009D3375 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		608E0D8B2A195856009D3375 /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
+		608E0D8E2A1A38E8009D3375 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		608E0D902A1A43F2009D3375 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		608E0D922A1A4526009D3375 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		608E0D972A1A5D1C009D3375 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		608E0D992A1A648A009D3375 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		608E0D9B2A1A686A009D3375 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		608E0D9D2A1A9EA5009D3375 /* Ext+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Decodable.swift"; sourceTree = "<group>"; };
+		608E0D9F2A1AA4FE009D3375 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		608E0DA12A1AA88E009D3375 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		608E0DA32A1B3E8D009D3375 /* GroceryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryModel.swift; sourceTree = "<group>"; };
+		608E0DA62A1BC260009D3375 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		608E0DA82A1BF91F009D3375 /* Ext+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Double.swift"; sourceTree = "<group>"; };
+		608E0DAA2A1CAADE009D3375 /* CartOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartOrderTableViewCell.swift; sourceTree = "<group>"; };
+		608E0DAC2A1CAFA4009D3375 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		608E0DAF2A1CD66B009D3375 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		608E0DB22A1CFD02009D3375 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		60967E432A1D063900938863 /* FinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishView.swift; sourceTree = "<group>"; };
+		60967E462A1D0DD700938863 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608E0D7E2A18BF21009D3375 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +104,118 @@
 		608E0D652A18AD31009D3375 /* Arbuz Fresh */ = {
 			isa = PBXGroup;
 			children = (
-				608E0D662A18AD31009D3375 /* AppDelegate.swift */,
-				608E0D682A18AD31009D3375 /* SceneDelegate.swift */,
-				608E0D6A2A18AD31009D3375 /* ViewController.swift */,
-				608E0D6C2A18AD31009D3375 /* Main.storyboard */,
-				608E0D6F2A18AD34009D3375 /* Assets.xcassets */,
-				608E0D712A18AD34009D3375 /* LaunchScreen.storyboard */,
-				608E0D742A18AD34009D3375 /* Info.plist */,
+				60967E452A1D0DAC00938863 /* ReceiptModule */,
+				608E0DAE2A1CD645009D3375 /* FinishModule */,
+				608E0DA52A1BC240009D3375 /* CartModule */,
+				608E0D8D2A1A0A8B009D3375 /* MainModule */,
+				608E0D962A1A5D09009D3375 /* OnboardingModule */,
+				608E0D832A18D2BC009D3375 /* LoginModule */,
+				608E0D862A194238009D3375 /* SignUpModule */,
+				608E0D852A193F8B009D3375 /* Extensions */,
+				608E0DB12A1CFA0B009D3375 /* Models */,
+				608E0D842A193F7B009D3375 /* Resources */,
+				608E0D922A1A4526009D3375 /* data.json */,
 			);
 			path = "Arbuz Fresh";
+			sourceTree = "<group>";
+		};
+		608E0D832A18D2BC009D3375 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				608E0D6A2A18AD31009D3375 /* LoginViewController.swift */,
+				608E0D812A18C5A0009D3375 /* LoginView.swift */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		608E0D842A193F7B009D3375 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				608E0D742A18AD34009D3375 /* Info.plist */,
+				608E0D712A18AD34009D3375 /* LaunchScreen.storyboard */,
+				608E0D6F2A18AD34009D3375 /* Assets.xcassets */,
+				608E0D682A18AD31009D3375 /* SceneDelegate.swift */,
+				608E0D662A18AD31009D3375 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		608E0D852A193F8B009D3375 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				608E0D7A2A18BEF1009D3375 /* Ext+ViewController.swift */,
+				608E0D7F2A18BFC4009D3375 /* Ext+UITextField.swift */,
+				608E0D8B2A195856009D3375 /* Ext+String.swift */,
+				608E0D9D2A1A9EA5009D3375 /* Ext+Decodable.swift */,
+				608E0DA82A1BF91F009D3375 /* Ext+Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		608E0D862A194238009D3375 /* SignUpModule */ = {
+			isa = PBXGroup;
+			children = (
+				608E0D872A194260009D3375 /* SignUpViewController.swift */,
+				608E0D892A1945F8009D3375 /* SignUpView.swift */,
+			);
+			path = SignUpModule;
+			sourceTree = "<group>";
+		};
+		608E0D8D2A1A0A8B009D3375 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				608E0D8E2A1A38E8009D3375 /* MainViewController.swift */,
+				608E0D902A1A43F2009D3375 /* MainViewModel.swift */,
+				608E0DA12A1AA88E009D3375 /* MainTableViewCell.swift */,
+				608E0DA32A1B3E8D009D3375 /* GroceryModel.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		608E0D962A1A5D09009D3375 /* OnboardingModule */ = {
+			isa = PBXGroup;
+			children = (
+				608E0D972A1A5D1C009D3375 /* OnboardingViewController.swift */,
+				608E0D992A1A648A009D3375 /* OnboardingCollectionViewCell.swift */,
+				608E0D9B2A1A686A009D3375 /* OnboardingModel.swift */,
+				608E0DB22A1CFD02009D3375 /* OnboardingViewModel.swift */,
+			);
+			path = OnboardingModule;
+			sourceTree = "<group>";
+		};
+		608E0DA52A1BC240009D3375 /* CartModule */ = {
+			isa = PBXGroup;
+			children = (
+				608E0DA62A1BC260009D3375 /* CartViewController.swift */,
+				608E0DAA2A1CAADE009D3375 /* CartOrderTableViewCell.swift */,
+				608E0DAC2A1CAFA4009D3375 /* CartViewModel.swift */,
+			);
+			path = CartModule;
+			sourceTree = "<group>";
+		};
+		608E0DAE2A1CD645009D3375 /* FinishModule */ = {
+			isa = PBXGroup;
+			children = (
+				608E0DAF2A1CD66B009D3375 /* FinishViewController.swift */,
+				60967E432A1D063900938863 /* FinishView.swift */,
+			);
+			path = FinishModule;
+			sourceTree = "<group>";
+		};
+		608E0DB12A1CFA0B009D3375 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				608E0D9F2A1AA4FE009D3375 /* ResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60967E452A1D0DAC00938863 /* ReceiptModule */ = {
+			isa = PBXGroup;
+			children = (
+				60967E462A1D0DD700938863 /* ReceiptViewController.swift */,
+			);
+			path = ReceiptModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +234,9 @@
 			dependencies = (
 			);
 			name = "Arbuz Fresh";
+			packageProductDependencies = (
+				608E0D7D2A18BF21009D3375 /* SnapKit */,
+			);
 			productName = "Arbuz Fresh";
 			productReference = 608E0D632A18AD31009D3375 /* Arbuz Fresh.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 608E0D5A2A18AD31009D3375;
+			packageReferences = (
+				608E0D7C2A18BF21009D3375 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 608E0D642A18AD31009D3375 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				608E0D732A18AD34009D3375 /* LaunchScreen.storyboard in Resources */,
+				608E0D932A1A4526009D3375 /* data.json in Resources */,
 				608E0D702A18AD34009D3375 /* Assets.xcassets in Resources */,
-				608E0D6E2A18AD31009D3375 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +295,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				608E0D6B2A18AD31009D3375 /* ViewController.swift in Sources */,
+				608E0D982A1A5D1C009D3375 /* OnboardingViewController.swift in Sources */,
+				60967E472A1D0DD700938863 /* ReceiptViewController.swift in Sources */,
+				608E0D822A18C5A0009D3375 /* LoginView.swift in Sources */,
+				608E0D882A194260009D3375 /* SignUpViewController.swift in Sources */,
+				608E0DAB2A1CAADE009D3375 /* CartOrderTableViewCell.swift in Sources */,
+				608E0DB02A1CD66B009D3375 /* FinishViewController.swift in Sources */,
+				608E0D802A18BFC4009D3375 /* Ext+UITextField.swift in Sources */,
+				60967E442A1D063900938863 /* FinishView.swift in Sources */,
+				608E0DAD2A1CAFA4009D3375 /* CartViewModel.swift in Sources */,
+				608E0D9A2A1A648A009D3375 /* OnboardingCollectionViewCell.swift in Sources */,
+				608E0D6B2A18AD31009D3375 /* LoginViewController.swift in Sources */,
+				608E0D8A2A1945F8009D3375 /* SignUpView.swift in Sources */,
+				608E0D8C2A195856009D3375 /* Ext+String.swift in Sources */,
 				608E0D672A18AD31009D3375 /* AppDelegate.swift in Sources */,
+				608E0DA92A1BF91F009D3375 /* Ext+Double.swift in Sources */,
+				608E0DB32A1CFD02009D3375 /* OnboardingViewModel.swift in Sources */,
+				608E0DA22A1AA88E009D3375 /* MainTableViewCell.swift in Sources */,
+				608E0DA02A1AA4FE009D3375 /* ResponseModel.swift in Sources */,
+				608E0DA72A1BC260009D3375 /* CartViewController.swift in Sources */,
+				608E0D7B2A18BEF1009D3375 /* Ext+ViewController.swift in Sources */,
+				608E0DA42A1B3E8D009D3375 /* GroceryModel.swift in Sources */,
+				608E0D9C2A1A686A009D3375 /* OnboardingModel.swift in Sources */,
 				608E0D692A18AD31009D3375 /* SceneDelegate.swift in Sources */,
+				608E0D9E2A1A9EA5009D3375 /* Ext+Decodable.swift in Sources */,
+				608E0D8F2A1A38E8009D3375 /* MainViewController.swift in Sources */,
+				608E0D912A1A43F2009D3375 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		608E0D6C2A18AD31009D3375 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				608E0D6D2A18AD31009D3375 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		608E0D712A18AD34009D3375 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,16 +455,15 @@
 		608E0D782A18AD34009D3375 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YX8RWQNTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Arbuz Fresh/Info.plist";
+				INFOPLIST_FILE = "Arbuz Fresh/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,16 +482,15 @@
 		608E0D792A18AD34009D3375 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YX8RWQNTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Arbuz Fresh/Info.plist";
+				INFOPLIST_FILE = "Arbuz Fresh/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +528,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		608E0D7C2A18BF21009D3375 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		608E0D7D2A18BF21009D3375 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 608E0D7C2A18BF21009D3375 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 608E0D5B2A18AD31009D3375 /* Project object */;
 }
