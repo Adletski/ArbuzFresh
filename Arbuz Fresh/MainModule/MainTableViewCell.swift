@@ -59,7 +59,7 @@ class MainTableViewCell: UITableViewCell {
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = .systemFont(ofSize: 15)
         button.layer.cornerRadius = 10
-        button.backgroundColor = .blue
+        button.backgroundColor = .systemGreen
         button.addTarget(nil, action: #selector(addToCartButtonPressed), for: .touchUpInside)
         return button
     }()

@@ -48,7 +48,7 @@ class OnboardingViewController: UIViewController {
     private lazy var nextButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("NEXT", for: .normal)
-        button.backgroundColor = .gray
+        button.backgroundColor = .systemGreen
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 15
         button.clipsToBounds = true
@@ -93,7 +93,7 @@ class OnboardingViewController: UIViewController {
             $0.top.equalTo(pageControl.snp.bottom).offset(20)
             $0.centerX.equalTo(view.snp.centerX)
             $0.height.equalTo(50)
-            $0.width.equalTo(100)
+            $0.width.equalTo(150)
         }
     }
     

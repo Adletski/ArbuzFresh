@@ -120,7 +120,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         cell.weightLabel.text = "Weight: \(grocery.weight)"
         cell.idLabel.text = "Id: \(grocery.id)"
         cell.countryLabel.text = "Country: \(grocery.country)"
-        cell.priceLabel.text = "Price: \(grocery.price)"
+        cell.priceLabel.text = "Price: \(grocery.price)$"
         cell.addToCartButton.isHidden = grocery.isProductAddedToCart
         cell.callBackForAddToCart = {
             grocery.isProductAddedToCart = true

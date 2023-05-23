@@ -82,7 +82,7 @@ class LoginView: UIView {
         button.setTitle("Sign In", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.titleLabel?.font = .systemFont(ofSize: 15, weight: .bold)
-        button.backgroundColor = #colorLiteral(red: 0.9794567227, green: 0.7637260556, blue: 0.1773841083, alpha: 1)
+        button.backgroundColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
         button.addTarget(nil, action: #selector(loginButtonPressed), for: .touchUpInside)
         return button
     }()

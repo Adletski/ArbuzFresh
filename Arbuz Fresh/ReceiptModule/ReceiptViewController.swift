@@ -55,8 +55,9 @@ class ReceiptViewController: UIViewController {
         }
         
         goBackButton.snp.makeConstraints {
-            $0.centerX.equalTo(view.snp.centerX)
-            $0.bottom.equalTo(view.snp.bottom).offset(-100)
+            $0.trailing.equalTo(view.snp.trailing).offset(-20)
+            $0.leading.equalTo(view.snp.leading).offset(20)
+            $0.bottom.equalTo(view.snp.bottom).offset(-50)
         }
     }
     
